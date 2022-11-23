@@ -1,0 +1,12 @@
+port: "8081"
+url: "nats://127.0.0.1:4223"
+cluster: "test-cluster"
+client: "stan-sub"
+subj: "test"
+db:
+  username: "postgres"
+  host: "localhost"
+  port: "5432"
+  password: "123"
+  dbname: "postgres"
+  sslmode: "disable"
